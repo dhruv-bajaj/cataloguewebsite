@@ -4,7 +4,7 @@ pipeline {
         stage('Example') {
             steps {
                 echo 'Hello World'
-               bat  'cd frontend/frontend'
+               bat  'cd frontend'
                bat 'npm i'
                bat 'npm start'
             }
