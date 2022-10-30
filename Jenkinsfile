@@ -4,8 +4,8 @@ pipeline {
         stage('Example') {
             steps {
                 echo 'Hello World'
-                sh 'cd frontend'
-                sh 'npm start'
+                bat 'cd frontend'
+                bat 'npm start'
             }
         }
     }
